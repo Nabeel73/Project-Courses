@@ -29,9 +29,10 @@
     Enrollment Expire
 </div>-->
 
-<div *ngIf="courses.length; else nocourses 0">
+<div *ngIf="courses.length > 0; then coursesList else noCourses"></div>
+<ng-template #coursesList>
     List of Courses
-</div>
-<div-template #noCourses>
+</ng-template>
+<ng-template #noCourses>
     Enrollment Expire
-    </div>
+</ng-template>
