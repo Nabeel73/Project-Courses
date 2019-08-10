@@ -1,13 +1,7 @@
     .nav {
-        display: flex;
+        cursor: pointer;
     }
     
     .nav li a {
         letter-spacing: 1px;
-        background: blue;
-        color: white;
-    }
-    
-    .nav li .active {
-        background: red;
     }

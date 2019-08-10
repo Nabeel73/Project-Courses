@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--The content below is only a placeholder and can be replaced.
 <h1>
     Welcome to {{ title }}!
@@ -28,8 +29,8 @@
     Enrollment Expire
 </div>-->
 
-<div *ngIf="courses.length != 0; then coursesShow else noCourses"></div>
-<!--<ng-template #coursesList>
+<!--<div *ngIf="courses.length != 0; then coursesShow else noCourses"></div>
+<ng-template #coursesList>
     List of Courses
 </ng-template>-->
 
@@ -54,7 +55,7 @@
 <div [ngSwitch]="viewMode">
 
     <div *ngSwitchCase="'map'">Map View Content</div>
-    <div *ngSwitchCase="'list'">list View Content</div>
+    <div *ngSwitchCase="'list'">List View Content</div>
     <div *ngSwitchDefault>Otherwise Default</div>
 
 </div>
