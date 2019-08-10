@@ -1,0 +1,13 @@
+    .nav {
+        display: flex;
+    }
+    
+    .nav li a {
+        letter-spacing: 1px;
+        background: blue;
+        color: white;
+    }
+    
+    .nav li .active {
+        background: red;
+    }

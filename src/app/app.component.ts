@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  //title = 'Angular App';
-  courses  = [];
+  title = 'Angular App';
+  courses  = [1];
+  viewMode = 'map';
 }
