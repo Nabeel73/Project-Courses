@@ -1,7 +1,12 @@
     .nav {
         cursor: pointer;
+        background: yellow;
     }
     
     .nav li a {
         letter-spacing: 1px;
+    }
+    
+    .nav li a :hover {
+        background: greenyellow;
     }
