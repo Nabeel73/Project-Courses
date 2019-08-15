@@ -3,3 +3,13 @@ form {
     padding: 10px 10px 10px 10px;
     font-size: 15px;
 }
+
+button {
+    margin: 10px 0px 0px 100px;
+    background: red;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
